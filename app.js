@@ -23,7 +23,7 @@ const checkOut = document.querySelector(".checkOut");
 
 const payOut = document.querySelector(".payOut");
 const message = document.querySelector(".message");
-const payAmount = document.querySelector(".payAmt");
+const payAmt = document.querySelector(".payAmt");
 const payBtn = document.querySelector(".payBtn");
 
 var smallQuantity = 0;
