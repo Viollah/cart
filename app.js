@@ -32,13 +32,16 @@ var largeQuantity= 0;
 var totalCart = 0;
 
 function BtnClick() {
-    if (event.target.className == "plusBtn small" || event.target.className == "plusBtn small buy") {
+    if (event.target.className == "plusBtn small" ||
+     event.target.className == "plusBtn small buy") {
         smallQuantity++;
         smallPizzaQuantity.innerHTML = smallQuantity;
-    } else if (event.target.className == "plusBtn medium" || event.target.className == "plusBtn medium buy") {
+    } else if (event.target.className == "plusBtn medium" ||
+     event.target.className == "plusBtn medium buy") {
         mediumQuantity++;
         mediumPizzaQuantity.innerHTML = mediumQuantity;
-    } else if (event.target.className == "plusBtn large" || event.target.className == "plusBtn large buy") {
+    } else if (event.target.className == "plusBtn large" ||
+     event.target.className == "plusBtn large buy") {
         largeQuantity++;
         largePizzaQuantity.innerHTML = largeQuantity;
     }
