@@ -79,7 +79,7 @@ function payment(){
     message.classList.toggle('hidden');
     var paymentAmt = Number(payAmt.value);
  if (paymentAmt == totalCart){
-    message.innerHTML = "Thank you here's your pizza!";
+    message.innerHTML = "Thank you, here's your pizza!";
  } else if (paymentAmt > totalCart) {
     var change = paymentAmt - totalCart;
     message.innerHTML = "Have a good day, take your change R" + change.toFixed(2);
