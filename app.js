@@ -128,7 +128,7 @@ function payment() {
     } else if (paymentAmt > totalCart) {
         var change = paymentAmt - totalCart;
         containerBox.style.backgroundColor = 'rgba(120, 255, 120, 0.95)';
-        message.innerHTML = "Enjoy your Pizza, here is your change R" + change.toFixed(2);
+        message.innerHTML = "Enjoy your Pizza!"
         smallQuantity = 0;
         mediumQuantity = 0;
         largeQuantity = 0;
