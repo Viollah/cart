@@ -107,15 +107,11 @@ h3 {
 
 .pizza-img {
     text-align: center;
+    
 }
-
-
-.pizza{
-    position:absolute;
-    bottom: 0;
-    padding-bottom: 0.5em;
+.plusBtn .large .buy{
+    text-align:center;
 }
-
 #contact {
     margin:0; 
     padding: 0em;
@@ -157,9 +153,9 @@ h3 {
 }
 
 .close {
-    border: 1pt solid darkgray;
+    border: 1pt solid wheat;
     border-radius: 2em;
     padding: 5px 10px;
-    background-color: darkgray;
+    background-color: wheat;
     text-decoration: none;
   }
