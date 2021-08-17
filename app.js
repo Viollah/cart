@@ -27,7 +27,7 @@ const message = document.querySelector(".message");
 const payAmt = document.querySelector(".payAmt");
 const payBtn = document.querySelector(".payBtn");
 
-const containerBox = document.querySelector(".containerBox");
+const containerBox = document.querySelector(".container");
 const closeBtn = document.querySelector(".close");
 
 var width = screen.availWidth;
